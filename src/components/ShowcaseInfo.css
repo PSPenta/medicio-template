@@ -1,0 +1,19 @@
+.showcase-info {
+  display: flex;
+  justify-content: left;
+  padding-bottom: 35px;
+}
+
+.info-icon {
+  color: var(--green);
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+.info-icon span {
+  font-size: 30px;
+}
+
+.info-text p {
+  margin-top: 5px;
+}

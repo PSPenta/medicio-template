@@ -1,0 +1,23 @@
+.banner {
+  background-color: var(--blue);
+  padding: 0 0 10px 0;
+}
+
+.banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-content {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.banner-content a {
+  text-decoration: none;
+  color: var(--white);
+}
