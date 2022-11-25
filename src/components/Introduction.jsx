@@ -1,8 +1,8 @@
 import Showcase from './Showcase';
 import Form from './Form';
-import './LandingPage.css';
+import './Introduction.css';
 
-function LandingPage() {
+function Introduction() {
   return (
     <section className={'landing-page'}>
       <div className={'background-image'}></div>
@@ -14,4 +14,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default Introduction;
