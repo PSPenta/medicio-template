@@ -16,14 +16,14 @@ function Form() {
         <h2>Make an appointment</h2>
         <p>(It's free!)</p>
       </div>
-      <form>
+      <form onSubmit={bookAppointment}>
         <div className={'form-fields'}>
           <FormInput inputType={'text'} formField={'fname'} label={'First Name'} />
           <FormInput inputType={'text'} formField={'lname'} label={'Last Name'} />
           <FormInput inputType={'email'} formField={'email'} label={'Email'} />
           <FormInput inputType={'text'} formField={'phone'} label={'Phone number'} />
         </div>
-        <button className={'btn'} onClick={bookAppointment}>Submit</button>
+        <button className={'btn'}>Submit</button>
       </form>
       <p>* We'll contact you by phone and email later</p>
     </div>
