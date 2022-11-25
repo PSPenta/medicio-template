@@ -5,6 +5,10 @@ import FormInput from './FormInput';
 import './Form.css';
 
 function Form() {
+  let bookAppointment = () => {
+    return;
+  };
+
   return (
     <div className={'form-container'}>
       <div className={'form-header'}>
@@ -19,7 +23,7 @@ function Form() {
           <FormInput inputType={'email'} formField={'email'} label={'Email'} />
           <FormInput inputType={'text'} formField={'phone'} label={'Phone number'} />
         </div>
-        <button className={'btn'}>Submit</button>
+        <button className={'btn'} onClick={bookAppointment}>Submit</button>
       </form>
       <p>* We'll contact you by phone and email later</p>
     </div>
