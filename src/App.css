@@ -1,7 +1,7 @@
 :root {
   --blue: #25B9BE;
   --white: #FFF;
-  --grey: #6D6D6D;
+  --grey: #999;
   --red: #F00;
   --black: #464646;
   --green: #7DB44D;
@@ -46,6 +46,12 @@ p {
 h5 {
   font-weight: 900;
   font-size: 20px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--grey);
 }
 
 .btn {

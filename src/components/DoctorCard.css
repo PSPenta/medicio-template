@@ -1,0 +1,17 @@
+.doctor-card {
+  text-align: center;
+}
+
+.doctor-card img {
+  max-width: 300px;
+  border: 1px solid var(--light-grey);
+}
+
+.doctor-card h5 {
+  margin-top: 20px;
+  color: var(--blue);
+}
+
+.doctor-card h6 {
+  margin-top: 5px;
+}

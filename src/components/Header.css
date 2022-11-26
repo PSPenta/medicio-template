@@ -38,11 +38,7 @@ nav ul li a {
   color: var(--grey);
 }
 
-nav ul li a.active {
-  color: var(--blue);
-}
-
-nav ul li a:hover {
+nav ul li a.active, nav ul li a:hover {
   color: var(--blue);
 }
 
