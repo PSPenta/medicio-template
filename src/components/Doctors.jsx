@@ -1,4 +1,5 @@
 import DoctorCard from './DoctorCard';
+import SectionHeading from './SectionHeading';
 import img1 from './doctor-1.jpeg';
 import img2 from './doctor-2.jpeg';
 import img3 from './doctor-3.jpeg';
@@ -9,11 +10,7 @@ function Doctors() {
   return (
     <section className={'doctors'}>
       <div className={'container'}>
-        <div className={'heading'}>
-          <h1>Doctors</h1>
-          <p>Et harum quidem rerum facilis est et expedita distinctio.</p>
-          <hr />
-        </div>
+        <SectionHeading heading={'Doctors'} description={'Et harum quidem rerum facilis est et expedita distinctio.'} />
         <ul className={'designation-nav'}>
           <li><a className={'active'} href={'#All'}>All (4)</a></li>
           <li><a href={'#Cardiologist'}>Cardiologist (2)</a></li>

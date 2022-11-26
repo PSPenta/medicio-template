@@ -1,0 +1,11 @@
+.heading {
+  text-align: center;
+}
+
+.heading p {
+  padding: 15px 0;
+}
+
+.heading hr {
+  width: 90px;
+}
