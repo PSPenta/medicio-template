@@ -1,0 +1,11 @@
+.main-service {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-service span {
+  color: var(--blue);
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
