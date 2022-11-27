@@ -8,7 +8,11 @@
   border: 1px solid var(--light-grey);
 }
 
-.doctor-card h5 {
+.doctor-card a {
+  text-decoration: none;
+}
+
+.doctor-card a h5 {
   margin-top: 20px;
   color: var(--blue);
 }
