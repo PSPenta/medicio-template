@@ -41,6 +41,7 @@ function Doctors() {
     All: doctors.length
   };
   const designations = doctors.map(doctor => doctor.designation).reduce((acc, curr) => {
+    // eslint-disable-next-line no-sequences
     return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
   }, {});
   allDesignations = {...allDesignations, ...designations};
