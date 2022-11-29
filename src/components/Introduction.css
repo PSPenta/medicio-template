@@ -1,15 +1,15 @@
-.landing-page {
+.introduction {
   position: relative;
 }
 
-.landing-page .background-image {
+.introduction .background-image {
   width: 100%;
   height: 650px;
   background: url('banner.jpeg') no-repeat center center/cover;
   filter: blur(8px);
 }
 
-.landing-page .container {
+.introduction .container {
   position: absolute;
   top: 0px;
   margin: 100px;
