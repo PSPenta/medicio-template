@@ -60,6 +60,16 @@ function Facilities() {
     setSlider(sliderImages.filter((sliderImage, i, j) => (i >= (currentActiveNav * 4) && i < ((currentActiveNav * 4) + 4))));
   };
 
+  setInterval(() => {
+    let currentActiveNav = activeNav + 1;
+    if (currentActiveNav >= sliderNavCount) {
+      currentActiveNav = 0;
+    }
+    setActiveNav(currentActiveNav);
+
+    setSlider(sliderImages.filter((sliderImage, i, j) => (i >= (currentActiveNav * 4) && i < ((currentActiveNav * 4) + 4))));
+  }, 5000);
+
   return (
     <section className={'facilities'}>
       <div className={'container'}>
