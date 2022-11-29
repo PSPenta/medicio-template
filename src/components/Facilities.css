@@ -1,0 +1,43 @@
+.facilities {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.facility-slider {
+  margin-top: 70px;
+  display: flex;
+}
+
+.facility-slider img {
+  max-width: 310px;
+  margin: 15px;
+}
+
+.slider__nav {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.slider__navlink {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: var(--grey);
+  margin: 0 10px 0 10px;
+}
+
+.slider__navlink:hover {
+  background-color: var(--black);
+}
+
+.facilities .active {
+  background-color: var(--blue);
+}
+
+.facilities .active:hover {
+  background-color: var(--blue);
+}
