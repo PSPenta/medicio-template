@@ -43,6 +43,11 @@ p {
   color: var(--grey);
 }
 
+h4 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
 h5 {
   font-weight: 900;
   font-size: 20px;

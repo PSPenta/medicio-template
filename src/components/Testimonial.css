@@ -1,0 +1,39 @@
+.testimonial {
+  margin-right: 40px;
+}
+
+.testimonial .testimonial-heading {
+  background-color: var(--white);
+  padding: 20px;
+}
+
+.testimonial .testimonial-heading h4, .testimonial .testimonial-heading p {
+  margin-top: 20px;
+}
+
+.testimonial .testimonial-triangle-arrow {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: 50px solid var(--white);
+  border-left: 50px solid transparent;
+}
+
+.testimonial .user-info img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.testimonial .user-info h4 {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--white);
+}
+
+.testimonial .user-info p {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--light-grey);
+}

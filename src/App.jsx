@@ -5,6 +5,7 @@ import Facilities from './components/Facilities';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Services from './components/Services';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Doctors />
       <Facilities />
+      <Carousel />
     </div>
   );
 }
