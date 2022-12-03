@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import { useState } from 'react';
 
-import SectionHeading from './SectionHeading';
+import SectionHeading from './common/SectionHeading';
 
-import img1 from './banner.jpeg';
-import img2 from './facility-2.jpeg';
-import img3 from './facility-3.jpeg';
-import img4 from './facility-4.jpeg';
-import img5 from './facility-5.jpeg';
-import img6 from './facility-6.jpeg';
+import img1 from './images/banner.jpeg';
+import img2 from './images/facility-2.jpeg';
+import img3 from './images/facility-3.jpeg';
+import img4 from './images/facility-4.jpeg';
+import img5 from './images/facility-5.jpeg';
+import img6 from './images/facility-6.jpeg';
 
 import './Facilities.css';
 

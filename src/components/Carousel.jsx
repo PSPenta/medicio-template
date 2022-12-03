@@ -4,12 +4,12 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 
 import Testimonial from './Testimonial';
 
-import img1 from './testimonial-1.jpeg';
-import img2 from './testimonial-2.jpeg';
-import img3 from './testimonial-3.jpeg';
-import img4 from './testimonial-4.jpeg';
-import img5 from './testimonial-5.jpeg';
-import img6 from './testimonial-6.jpeg';
+import img1 from './images/testimonial-1.jpeg';
+import img2 from './images/testimonial-2.jpeg';
+import img3 from './images/testimonial-3.jpeg';
+import img4 from './images/testimonial-4.jpeg';
+import img5 from './images/testimonial-5.jpeg';
+import img6 from './images/testimonial-6.jpeg';
 
 import './Carousel.css';
 

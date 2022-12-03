@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
 import DoctorCard from './DoctorCard';
-import SectionHeading from './SectionHeading';
+import SectionHeading from './common/SectionHeading';
 
-import img1 from './doctor-1.jpeg';
-import img2 from './doctor-2.jpeg';
-import img3 from './doctor-3.jpeg';
-import img4 from './doctor-4.jpeg';
+import img1 from './images/doctor-1.jpeg';
+import img2 from './images/doctor-2.jpeg';
+import img3 from './images/doctor-3.jpeg';
+import img4 from './images/doctor-4.jpeg';
 
 import './Doctors.css';
 
