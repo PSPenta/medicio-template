@@ -18,7 +18,8 @@ function Header() {
             <li><a href={'#Doctors'}>Doctors</a></li>
             <li><a href={'#Facilities'}>Facilities</a></li>
             <li><a href={'#Pricing'}>Pricing</a></li>
-            <li><a href={'#More'}>More<span><FontAwesomeIcon icon={faCaretDown} /></span><sup>Extra</sup></a></li>
+            <li><a href={'#More'}>More<span><FontAwesomeIcon icon={faCaretDown} /></span></a></li>
+            <span className={'extra'}>Extra</span>
           </ul>
         </nav>
       </div>
