@@ -7,7 +7,7 @@
   overflow: visible;
 }
 
-.active {
+.health-package.active {
   margin-top: 0;
   z-index: 2;
   box-shadow: 1px 1px 6px 1px var(--grey);
@@ -30,13 +30,13 @@
   font-weight: 900;
 }
 
-.active .header .head {
+.health-package.active .header .head {
   background-color: var(--dark-blue);
   color: var(--white);
   padding: 30px 40px;
 }
 
-.active .header .sub-head {
+.health-package.active .header .sub-head {
   background-color: var(--blue);
   color: var(--white);
   padding: 40px 50px;
@@ -82,7 +82,7 @@
   padding: 15px;
 }
 
-.active .footer {
+.health-package.active .footer {
   background-color: var(--dark-blue);
 }
 
