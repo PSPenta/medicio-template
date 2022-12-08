@@ -58,7 +58,7 @@ function Doctors() {
   };
 
   return (
-    <section className={'doctors'}>
+    <section id={'doctors'}>
       <div className={'container'}>
         <SectionHeading heading={'Doctors'} description={'Et harum quidem rerum facilis est et expedita distinctio.'} />
         <ul className={'designation-nav'}>

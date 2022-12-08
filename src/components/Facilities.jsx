@@ -71,7 +71,7 @@ function Facilities() {
   // }, 5000);
 
   return (
-    <section className={'facilities'}>
+    <section id={'facilities'}>
       <div className={'container'}>
         <SectionHeading heading={'Our facilities'} description={'Et harum quidem rerum facilis est et expedita distinctio.'} />
         <div className={'facility-slider'}>

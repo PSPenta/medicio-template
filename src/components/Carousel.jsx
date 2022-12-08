@@ -85,7 +85,7 @@ function Carousel() {
   };
 
   return (
-    <section className={'carousel'}>
+    <section id={'carousel'}>
       <div className={'background-image'}></div>
       <div className={'container'}>
         {

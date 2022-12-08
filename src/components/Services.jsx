@@ -22,7 +22,7 @@ function Services() {
   };
 
   return (
-    <section className={'services'}>
+    <section id={'services'}>
       <div className={'container'}>
         <div className={'service-procedure'}>
           <ServiceStep icon={<FontAwesomeIcon icon={faCheck} />} heading={'Make an appointment'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />

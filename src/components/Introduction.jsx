@@ -4,7 +4,7 @@ import './Introduction.css';
 
 function Introduction() {
   return (
-    <section className={'introduction'}>
+    <section id={'introduction'}>
       <div className={'background-image'}></div>
       <div className={'container'}>
         <Showcase />

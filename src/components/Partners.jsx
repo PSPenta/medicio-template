@@ -8,7 +8,7 @@ import './Partners.css';
 
 function Partners() {
   return (
-    <section className={'partners'}>
+    <section id={'partners'}>
       <div className={'container'}>
         <SectionHeading heading={'Our partner'} description={'Take charge of your health today with our specially designed health packages'} />
         <div className={'partner-logos'}>

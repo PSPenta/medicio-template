@@ -1,4 +1,4 @@
-.facilities {
+#facilities {
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -34,10 +34,10 @@
   background-color: var(--black);
 }
 
-.facilities .active {
+#facilities .active {
   background-color: var(--blue);
 }
 
-.facilities .active:hover {
+#facilities .active:hover {
   background-color: var(--blue);
 }

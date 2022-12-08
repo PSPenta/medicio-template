@@ -1,9 +1,9 @@
-.banner {
+#banner {
   background-color: var(--blue);
   padding: 0 0 10px 0;
 }
 
-.banner .container {
+#banner .container {
   display: flex;
   justify-content: space-between;
 }

@@ -86,7 +86,7 @@ function Pricing() {
   ];
 
   return (
-    <section className={'pricing'}>
+    <section id={'pricing'}>
       <div className={'container'}>
         <SectionHeading heading={'Health packages'} description={'Take charge of your health today with our specially designed health packages'} />
         <div className={'health-packages'}>
