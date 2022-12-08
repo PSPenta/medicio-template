@@ -40,7 +40,7 @@ nav ul li a.active, nav ul li a:hover {
   color: var(--blue);
 }
 
-.extra {
+.super {
   background-color: var(--red);
   color: var(--white);
   border-radius: 50px;

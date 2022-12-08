@@ -19,7 +19,7 @@ function Header() {
             <li><a href={'#Facilities'}>Facilities</a></li>
             <li><a href={'#Pricing'}>Pricing</a></li>
             <li><a href={'#More'}>More<span><FontAwesomeIcon icon={faCaretDown} /></span></a></li>
-            <span className={'extra'}>Extra</span>
+            <span className={'super'}>Extra</span>
           </ul>
         </nav>
       </div>

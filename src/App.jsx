@@ -8,6 +8,8 @@ import Services from './components/Services';
 import Carousel from './components/Carousel';
 import Pricing from './components/Pricing';
 import Partners from './components/Partners';
+import ContactInfo from './components/ContactInfo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Carousel />
       <Pricing />
       <Partners />
+      <ContactInfo />
+      <Footer />
     </div>
   );
 }

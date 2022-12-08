@@ -1,0 +1,85 @@
+#contact-info {
+  background-color: var(--background-grey);
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+#contact-info .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact-info .contact-row {
+  margin-top: 30px;
+}
+
+#contact-info .contact-row h3 {
+  margin-bottom: 10px;
+}
+
+#contact-info .contact-row ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contact-info .contact-row ul li {
+  margin-bottom: 5px;
+}
+
+#contact-info .contact-row a {
+  color: var(--grey);
+}
+
+#contact-info .contact-row ul li a:hover {
+  color: var(--blue);
+}
+
+#contact-info .contact-row .contact-us {
+  margin: 25px 0;
+}
+
+#contact-info .contact-row p a:hover {
+  color: var(--blue);
+}
+
+#contact-info .contact-row span {
+  margin-right: 5px;
+}
+
+#contact-info .contact-row .contact-icons {
+  font-size: 20px;
+  background-color: var(--dark-grey);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.media-icons {
+  padding: 10px;
+  font-size: 20px;
+}
+
+#fb-icon {
+  background-color: #2873AA;
+  color: var(--white);
+}
+
+#twitter-icon {
+  background-color: #4CC5F3;
+  color: var(--white);
+}
+
+#google-icon {
+  background-color: #000;
+  color: var(--white);
+}
+
+#vimeo-icon {
+  background-color: #3FA6CF;
+  color: var(--white);
+}
+
+#dribble-icon {
+  background-color: #DC497D;
+  color: var(--white);
+}
