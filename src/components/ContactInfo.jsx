@@ -29,9 +29,18 @@ function ContactInfo() {
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui</p>
           </div>
           <div className={'contact-row'}>
-            <p className={'contact-us'}><span className={'contact-icons'}><FontAwesomeIcon icon={faCalendar} /></span>Monday - Saturday, 8am to 10pm</p>
-            <p className={'contact-us'}><span className={'contact-icons'}><FontAwesomeIcon icon={faPhone} /></span><a href={'tel:+620888904711'}>+62 0888 904 711</a></p>
-            <p className={'contact-us'}><span className={'contact-icons'}><FontAwesomeIcon icon={faEnvelope} /></span><a href={'mailto:hello@medicio.com'}>hello@medicio.com</a></p>
+            <p className={'contact-us'}>
+              <span className={'contact-icons'}><FontAwesomeIcon icon={faCalendar} /></span>
+              Monday - Saturday, 8am to 10pm
+            </p>
+            <p className={'contact-us'}>
+              <span className={'contact-icons'}><FontAwesomeIcon icon={faPhone} /></span>
+              <a href={'tel:+620888904711'}>+62 0888 904 711</a>
+            </p>
+            <p className={'contact-us'}>
+              <span className={'contact-icons'}><FontAwesomeIcon icon={faEnvelope} /></span>
+              <a href={'mailto:hello@medicio.com'}>hello@medicio.com</a>
+            </p>
           </div>
         </div>
         <div className={'contact-column'}>
@@ -41,11 +50,21 @@ function ContactInfo() {
           </div>
           <div className={'contact-row'}>
             <h3>Follow us</h3>
-            <span className={'media-icons'} id={'fb-icon'}><FontAwesomeIcon icon={faFacebook} /></span>
-            <span className={'media-icons'} id={'twitter-icon'}><FontAwesomeIcon icon={faTwitter} /></span>
-            <span className={'media-icons'} id={'google-icon'}><FontAwesomeIcon icon={faGooglePlus} /></span>
-            <span className={'media-icons'} id={'vimeo-icon'}><FontAwesomeIcon icon={faVimeo} /></span>
-            <span className={'media-icons'} id={'dribble-icon'}><FontAwesomeIcon icon={faDribbble} /></span>
+            <a href={'#facebook'} target={'_blank'} rel={'noopener noreferrer'}>
+              <span className={'media-icons'} id={'fb-icon'}><FontAwesomeIcon icon={faFacebook} /></span>
+            </a>
+            <a href={'#twitter'} target={'_blank'} rel={'noopener noreferrer'}>
+              <span className={'media-icons'} id={'twitter-icon'}><FontAwesomeIcon icon={faTwitter} /></span>
+            </a>
+            <a href={'#google-plus'} target={'_blank'} rel={'noopener noreferrer'}>
+              <span className={'media-icons'} id={'google-icon'}><FontAwesomeIcon icon={faGooglePlus} /></span>
+            </a>
+            <a href={'#vimeo'} target={'_blank'} rel={'noopener noreferrer'}>
+              <span className={'media-icons'} id={'vimeo-icon'}><FontAwesomeIcon icon={faVimeo} /></span>
+            </a>
+            <a href={'#dribble'} target={'_blank'} rel={'noopener noreferrer'}>
+              <span className={'media-icons'} id={'dribble-icon'}><FontAwesomeIcon icon={faDribbble} /></span>
+            </a>
           </div>
         </div>
       </div>
