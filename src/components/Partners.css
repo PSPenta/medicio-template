@@ -1,0 +1,10 @@
+.partners {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.partner-logos {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}

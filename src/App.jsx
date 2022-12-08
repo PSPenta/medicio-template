@@ -7,6 +7,7 @@ import Introduction from './components/Introduction';
 import Services from './components/Services';
 import Carousel from './components/Carousel';
 import Pricing from './components/Pricing';
+import Partners from './components/Partners';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Facilities />
       <Carousel />
       <Pricing />
+      <Partners />
     </div>
   );
 }
