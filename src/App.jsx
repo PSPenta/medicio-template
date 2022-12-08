@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Services from './components/Services';
 import Carousel from './components/Carousel';
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Doctors />
       <Facilities />
       <Carousel />
+      <Pricing />
     </div>
   );
 }

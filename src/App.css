@@ -1,5 +1,5 @@
 :root {
-  --blue: #25B9BE;
+  --blue: #2FCBCF;
   --white: #FFF;
   --grey: #999;
   --red: #F00;
@@ -7,6 +7,8 @@
   --green: #7DB44D;
   --light-grey: #C5C5C5;
   --off-white: #FAFAFA;
+  --dark-blue: #25B9BE;
+  --dark-grey: #666666;
 }
 
 .App {

@@ -1,0 +1,12 @@
+.pricing {
+  background-color: var(--off-white);
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.pricing .health-packages {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}

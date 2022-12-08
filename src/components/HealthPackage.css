@@ -1,0 +1,92 @@
+.health-package {
+  text-align: center;
+  width: 32%;
+  height: 100%;
+  margin-top: 40px;
+  box-shadow: 1px 1px 5px 1px var(--grey);
+  overflow: visible;
+}
+
+.active {
+  margin-top: 0;
+  z-index: 2;
+  box-shadow: 1px 1px 6px 1px var(--grey);
+}
+
+.health-package .header .head {
+  background-color: var(--dark-grey);
+  color: var(--white);
+  padding: 20px 30px;
+}
+
+.health-package .header .sub-head {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 30px 40px;
+}
+
+.health-package .header .sub-head span {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.active .header .head {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 30px 40px;
+}
+
+.active .header .sub-head {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 40px 50px;
+}
+
+.health-package .content {
+  margin-top: -15px;
+  background-color: var(--white);
+}
+
+.health-package .content ul {
+  padding: 25px 0;
+}
+
+.health-package .content ul li {
+  list-style: none;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--black);
+  margin: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.health-package .content ul li.disabled {
+  color: var(--grey);
+  text-decoration: line-through;
+}
+
+.health-package .content ul li span {
+  color: var(--green);
+  font-weight: 900;
+}
+
+.health-package .content ul li.disabled span {
+  color: var(--red);
+  font-weight: 900;
+}
+
+.health-package .footer {
+  margin-top: -15px;
+  padding: 15px;
+}
+
+.active .footer {
+  background-color: var(--dark-blue);
+}
+
+.health-package .footer .btn {
+  padding: 15px 20px;
+  font-size: 18px;
+}
